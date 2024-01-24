@@ -1,0 +1,80 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+section{
+    min-height: 680px;
+    background-image:linear-gradient(rgba(0,0,0,0.60),rgba(0,0,0,0.40)), url("../Internship/workplace.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.x{
+    width:85%;
+    margin:auto;
+}
+nav{
+    height:80px;
+}
+nav h2{
+    float: left;
+    line-height: 80px;
+    font-size: 35px;
+    font-size: inline;
+    color:coral;
+}
+nav ul{
+    float: right;
+    line-height: 80px;
+}
+nav ul li{
+    display: inline-block;
+    list-style: none;
+    padding:0px 5px;
+}
+nav ul li a{
+    color:white;
+    text-decoration: none;
+    text-transform: uppercase;
+    border-radius: 5px;
+    padding: 7px 8px;
+}
+nav ul li a:hover{
+    background-color:skyblue;
+    transition: 0.5% ease;
+}
+nav ul li .active{
+    background-color: chocolate;
+}
+.x1{
+    width:50%;
+    margin:auto;
+    text-align: center;
+    transform: translateY(25vh);
+}
+.x1 h3{
+    font-size: 36px;
+    color: whitesmoke;
+    letter-spacing: 1.5px;
+    font-weight: 800;
+    margin-bottom: 25px;
+}
+.x1 p{
+    font-size: 18px;
+    color:azure;
+    line-height: 1.5;
+    margin-bottom: 50px;
+}
+.x1 .button{
+    color: aliceblue;
+    padding: 12px 25px;
+    letter-spacing: 1.5px;
+    text-transform: uppercase;
+    text-decoration: none;
+    background-color:coral;
+}
+.x1 .button:hover{
+    background-color: rgb(118, 229, 229);
+    transition: 0.5% ease;
+}
